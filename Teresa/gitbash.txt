@@ -1,0 +1,79 @@
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2 (master)
+$ git init
+Initialized empty Git repository in C:/Users/Ma. Teresa Castro/OneDrive/Desktop/Castro2/.git/
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2 (master)
+$ git config --global user.name "MariaTeresaCastro"
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2 (master)
+$ git config --global user.email castro.tere1019@gmail.com
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2 (master)
+$ git clone https://github.com/MariaTeresaCastro/BSIT-TSM-3B-IPT2CS-G1
+Cloning into 'BSIT-TSM-3B-IPT2CS-G1'...
+fatal: unable to access 'https://github.com/MariaTeresaCastro/BSIT-TSM-3B-IPT2CS-G1/': Could not resolve host: github.com
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2 (master)
+$ git clone https://github.com/MariaTeresaCastro/BSIT-TSM-3B-IPT2CS-G1
+Cloning into 'BSIT-TSM-3B-IPT2CS-G1'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 17 (delta 1), reused 14 (delta 1), pack-reused 0
+Receiving objects: 100% (17/17), 3.07 MiB | 1.80 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2 (master)
+$ cd BSIT-TSM-3B-IPT2CS-G1
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1 (main)
+$ git checkout -b teresa-portfolio
+Switched to a new branch 'teresa-portfolio'
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1 (teresa-portfolio)
+$ mkdir Teresa
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1 (teresa-portfolio)
+$ cd Teresa
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1/Teresa (teresa-portfolio)
+$ git add .
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1/Teresa (teresa-portfolio)
+$ git commit -m "Teresa-portfolio 1st commit"
+[teresa-portfolio 01d3fad] Teresa-portfolio 1st commit
+ 8 files changed, 266 insertions(+)
+ create mode 100644 Teresa/Teresa-portfolio.html
+ create mode 100644 Teresa/fam.jpg
+ create mode 100644 Teresa/friends.jpg
+ create mode 100644 Teresa/keyoppi.jpg
+ create mode 100644 Teresa/mads.jpg
+ create mode 100644 Teresa/script.js
+ create mode 100644 Teresa/style2.css
+ create mode 100644 Teresa/tere4.jpg
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1/Teresa (teresa-portfolio)
+$ git status
+On branch teresa-portfolio
+nothing to commit, working tree clean
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1/Teresa (teresa-portfolio)
+$ git add .
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1/Teresa (teresa-portfolio)
+$ git commit -m "code commit 1"
+[teresa-portfolio 9649058] code commit 1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Teresa/portfolio-codes.docx
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1/Teresa (teresa-portfolio)
+$ git status
+On branch teresa-portfolio
+nothing to commit, working tree clean
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1/Teresa (teresa-portfolio)
+$ touch gitbash.txt
+
+Ma. Teresa Castro@TERRYYY MINGW64 ~/OneDrive/Desktop/Castro2/BSIT-TSM-3B-IPT2CS-G1/Teresa (teresa-portfolio)
+$
