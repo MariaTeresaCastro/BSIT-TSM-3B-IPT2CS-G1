@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leliepop</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="Lexie.css">
+
+    <!-- JS Script -->
+
+    <!-- Font Link -->
+    <link href='https://fonts.googleapis.com/css?family=Gochi Hand' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <div class="ribbon-logo">
+            <h1>Leliepop's Corner: Welcome to my Personal Portfolio</h1>
+            <img class="logo"src="https://cdn-icons-png.flaticon.com/512/6359/6359611.png" alt="bow-logo">
+        </div>
+        <!-- Navigation -->
+        <nav>
+            <a href="#description">Get to know me<3</a>
+            <a href="#facts">Facts about me</a>
+            <a href="#life-container">Life<3</a>
+           
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="desck">
+                <img id="pic" src="https://cdn-icons-png.flaticon.com/512/4829/4829575.png" alt="girl-Pic">
+                        <p id="description">
+                            Hellooooo! It's me Lexie, 21 and rocking the 3rd year of college under the program of BSIT (literally crying rn), I am the eldest among us siblings and a mother of two cats named bembi and memi. 
+                            <br>
+                            <br>
+                            Baking is my passion (but we don’t have oven) I love watching cooking series in my free time, raging Gordon Ramsey is music to my ears. 
+                            <br>
+                            <br>
+                            I am just a simple girl who’s doing casual things like everyone does like, sleeping, eating, crying, and being lutang is my talent (xD). 
+                        </p>
+
+                            <!-- buttons for description -->
+
+                        <button type="submit" onclick="document.getElementById('description').innerHTML = 'My MBTI is ISFP-T, I am an introverted person. I enjoy my company alone and there are few people who are remarkably close to me. I have my mama & sister as my best friends in any season, I can do whatever I want without judgement, my circle of Friends since grade 11, My human diary named ara, and OfCourse to my other half named angel. He is my all in one, he is my lover, bff, best buddy, human diary, and ka chismisan.<3 I love them very mwuuchhh '">Read More.</button>
+                        <button type="reset" onclick="resetContent('description')">Go Back.</button>
+
+                            <!-- Reset Content -->
+
+                        <script>
+                                // store content in a variable
+                            var originalContent = document.getElementById('description').innerHTML;
+
+                            // function to reset content
+                            function resetContent(id) {
+                                document.getElementById('description').innerHTML = originalContent;
+                            }
+                        </script>
+            </div>
+                    <!-- Button to change Pic of description -->
+            
+            <button type="button" onclick="document.getElementById('pic').src= './4.jpg'">Click here!xD</button>
+            <br>
+            <h1 id="facts">Some facts about me</h1>
+        </section>
+
+            
+        <section id="info">
+        <div class="info-con">
+            <div class="info">
+                <div class="card-info">
+                    <div class="card-info-img">
+                        <img class="info-fact-img" src="./10.png" alt="Persian-cat">
+                    </div>
+                    <div class="category">Fact #1</div>
+                    <h3>I love Eating </h3>
+                    <p>
+                        Food makes my heart happy.  
+                        It is embarrassing to admit, but I shed tears 
+                        whenever I eat delicious food. Sinigang is my 
+                        Roman empire, papa introduced me to that delicious food 
+                        to this day it is my comfort food. It has been my favorite ever since 
+                        In kindergarten until now. 
+                        <br>
+                        <br>
+                        Halo – Halo is my all-time favorite; I love eating sweet treats too.  
+                        And current favorite is pichi-pichi from Concepcion! 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+         <div class="info-con">
+            <div class="info">
+                <div class="card-info">
+                    <div class="card-info-img">
+                        <img class="info-fact-img1" src="./6.png" alt="Persian-cat">
+                    </div>
+                    <div class="category">Fact #2</div>
+                    <h3>I love cats</h3>
+                    <p>
+                        I love cats.
+                        I have developed my love for them because
+                        Papa used to rescue kittens
+                        from the street since I was young. I realized
+                        loving them is easy, and I believe
+                        they bring luck in everyone's life.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-con">
+            <div class="info">
+                <div class="card-info">
+                    <div class="card-info-img">
+                        <img class="info-fact-img2" src="./9.png" alt="Persian-cat">
+                    </div>
+                    <div class="category">Fact #3</div>
+                    <h3>I am balat sibuyas</h3>
+                    <p>
+                         I cry easily over everything. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-con">
+            <div class="info">
+                <div class="card-info">
+                    <div class="card-info-img">
+                        <img class="info-fact-img3" src="./13.png" alt="Persian-cat">
+                    </div>
+                    <div class="category">Fact #4</div>
+                    <h3>I love art.</h3>
+                    <p>
+                        I developed my skills during the pandemic  
+                        I love watching art videos, especially when 
+                        they render a particular sketch. I found coloring 
+                        interesting. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+  
+    <section id="life-container">
+        <div class="life">
+            <h2>LIFE<3</h2>
+            <br>
+                <div class="life-img-con">
+                   
+                        <img class="life-img" src="./My Life.png" alt="Persian-cat">
+                       
+                </div>
+        </div>
+    </section>
+       
+    
