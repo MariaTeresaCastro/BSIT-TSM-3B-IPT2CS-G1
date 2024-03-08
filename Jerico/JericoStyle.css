@@ -1,0 +1,71 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-image: url(https://wallpapers.com/blog/wp-content/uploads/2023/06/Web-development-concept-with-person-using-a-laptop-computer.jpeg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+}
+header {
+    background-color: red;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.nav-bar, .top-nav {
+    background-color: rgb(32, 48, 31);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+    overflow: hidden;
+    top: 0;
+    z-index: 100;
+    height: 6rem;
+}
+.logo {
+    font-family: Romulus;
+    font-size: 50px;
+    color: white;
+}
+@supports (position: sticky) {
+    .top-nav {
+      position: sticky;
+    }
+}
+
+.info1 {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: black;
+    max-width: 1000px;
+}
+.info {
+    background-color: orange;
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.info h1 {
+    font-size: 30px;
+}
+.info p {
+    font-size: 20px;
+}
+button {
+    height: 45px;
+    width: 160px;
+}
+button a {
+    text-decoration: none;
+}
