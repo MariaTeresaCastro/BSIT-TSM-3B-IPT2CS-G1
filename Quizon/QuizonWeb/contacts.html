@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="navBar">
+        <img src="logo.png" style="height: 50px">
+        <a href="" class="a1">Jhon.</a>
+        <a href="jhonMain.html" class="a2">Home</a>
+        <a href="aboutMe.html" class="a3">About Me</a>
+        <a href="contacts.html" class="a4">Contacts</a>
+    </div>
+
+ <div class="backgroundPic">
+    <img src="picbg.jpg" class="bg">
+ </div>
+ <div class="contactMe">
+    <h1>
+       CONTACT ME
+    </h1>
+    <p>Ask me anything!</p>
+    <p class="first">First Name:</p>
+    <input type="text" style="font-size: 20px" id="fName" placeholder="">
+    <p class="last">Last Name:</p>
+    <input type="text" style="font-size: 20px" id="lName" placeholder="">
+    <p class="eAdd">Email Address:</p>
+    <input type="text" style="font-size: 20px" id="email" placeholder="">
+    <p class="mess">Message:</p>
+    <textarea style="font-size: 15px" id="message" placeholder="" style="text-align: left;" style="align-items: start;"></textarea>
+    <a href=""><button onclick ="callAlert()"class="send">Send</button></a>
+      
+         <script scr="main.js"></script>
+      
+      <script>
+         function callAlert(msg){
+            alert("Message sent!")
+         }
+      </script>
+ </div>
+ <div class="social">
+    <img src="facebook.png" class="fbpic">
+    <a href="https://www.facebook.com/jhong.hilario" target="_blank"><button class="fb">Facebook</button></a>
+    <img src="instagram-logo.png" class="igpic">
+    <a href="https://www.instagram.com/r.jhonq/" target="_blank"><button class="ig">Instagram</button></a>
+    <img src="twitter.png" class="xpic">
+    <a href="https://twitter.com/r_jhonq" target="_blank"><button class="x">Twitter</button></a>
+    <img src="discord.png" class="dcpic">
+    <a href="https://discord.com/users/576597082010550292" target="_blank"><button class="dc">Discord</button></a>
+ </div>
+
+</body>
+
+</footer>
+</html>
