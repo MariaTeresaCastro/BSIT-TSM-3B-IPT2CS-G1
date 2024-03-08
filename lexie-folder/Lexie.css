@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gochi Hand';
+    color: #b4006c
+    
+}
+body {
+    background-color: #fae9ee;
+    padding: 10px;
+}
+/* header */
+header {
+    background-color: #f3c4d3;
+    border-radius: 10px;
+    border: solid 4px #B0578D;
+    font-size: 500 px;
+    background: url('https://th.bing.com/th/id/OIP.xNbL9CMh4kFKpbliIGIBnQAAAA?rs=1&pid=ImgDetMain');
+    
+   
+}
+
+#facts {
+    background-color: #ee7ac9;
+    font-size: 50px;
+    text-align: center;
+    
+    }
+    
+
+/* Logo container */
+.ribbon-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+   
+}
+.ribbon-logo h1 {
+    font-size: 30px;
+}
+/* ribbon-logo img */
+.ribbon-logo img {
+    height: 70px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 100px
+}
+nav a {
+    text-decoration: none;
+    color: #b4006c;
+    padding: 10px, 15px;
+    position: relative;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #e4359e;
+    transition: 0.3s;
+}
+
+  /* Main Content */
+
+  main {
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+        /* Container-Description */
+
+.desck {
+    display: flex;
+    margin-top: 10px;
+    background-color: #fdc6ec;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.desck h1 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.desck img {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+}
+
+.desck p {
+    font-size: 23px;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.desck button {
+    background-color:  white;
+    border: none;
+    color: #b4006c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.desck button:hover {
+    background-color: #df57a8;
+    transition: 0.3s;
+}
+.desck button:active {
+    background-color: #E48F45;
+    transition: 0.5s;
+}
+
+    /* Button for click here */
+
+button[type=button] {
+    background-color:white;
+    border: none;
+    color: #b4006c;
+    padding: 15px 32px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+}
+button[type=button]:hover {
+    background-color: #df57a8;
+    transition: 0.3s;
+}
+button[type=button]:active {
+    background-color: #E48F45;
+    transition: 0.5s;
+}
+
+#cat-breed {
+    background-color: #E48F45;
+    margin-top: 15px;
+    padding: 15px 32px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+    
+#info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+     background: url('https://th.bing.com/th/id/OIP.xNbL9CMh4kFKpbliIGIBnQAAAA?rs=1&pid=ImgDetMain');
+    border-radius: 15px;
+}
+.info {
+    padding-top:40px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    margin-top: 15px;
+    
+}
+.card-info {
+    background-color:#ee7ac9;
+    box-shadow: -1px 15px 15px -12px #F9E8D9;
+    width: 250px;
+    height: 485px;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+}
+.card-info-img {
+    height:150px;
+    margin-bottom:20px;
+    position: relative;
+    background: url('https://i.pinimg.com/originals/04/6a/32/046a322259ad07e0dc573397b61a0f58.jpg');
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.card-info-img .info-fact-img {
+    width: 140px;
+    position: absolute;
+    top: -113px;
+    left: 50px;
+    height: 287px;
+}
+.card-info-img .info-fact-img1 {
+    width: 150px;
+    position: absolute;
+    top: -112px;
+    left: 50px;
+}
+
+.card-info-img .info-fact-img2 {
+    width: 150px;
+    position: absolute;
+    top: -141px;
+    left: 50px;
+
+}
+
+.card-info-img .info-fact-img3 {
+    width: 150px;
+    position: absolute;
+    top: -98px;
+    left: 50px;
+
+}
+
+.card-info > p {
+    font-size: 14px;
+    padding: 10px 15px 15px 15px;
+}
+
+
+.life {
+    background-color: #fdc6ec;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.life h2 {
+    font-size: 30px;
+    padding: 10px;
+    background-color: #ee7ac9;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.life-img-con p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.life-img-con {
+    list-style: none;
+    gap: 10px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.life-img-con, p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.life-img {
+    width: 100%;
+}
+
+
+
+
+
+
+   
